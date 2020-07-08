@@ -1,0 +1,19 @@
+section article{
+    width: 300px;
+    height: 200px;
+    background-color: brown;
+}
+
+/*telefono*/
+@media screen and (min-width: 480px){
+    section article{
+        background-color: green;
+    }
+}
+
+/*tabletas*/
+@media screen and (min-width: 767px){
+    section article{
+        background-color: blue;
+    }
+}

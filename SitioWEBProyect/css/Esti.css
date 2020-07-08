@@ -1,0 +1,675 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	
+}
+
+body{
+	/*a razón de sitio repositivo*/
+	/*font-size:0px;*/
+	background:url(../imagenes/dogs-running-on-the-field-under-blue-sky-215957.jpg) no-repeat fixed ;
+	background-size: 500px;
+	padding-top: 1%;
+	background-position: center;
+	font-family: 'Kaushan Script', cursive;
+	background-size: 100% ;
+}
+
+
+h1{
+font-size: 8em;
+color: rgba(253, 253, 253, 0.979);
+text-align: center;
+font-family: 'Pacifico', cursive;
+border-color: rgb(215, 223, 210);
+text-shadow: -2px 2px 0 #070303, -4px 4px 0 #000000;
+padding-top: 50px;
+}
+h2{
+	font-size: 3rem;
+	color: #000000;
+	text-shadow: -2px 2px 0 #575757, -4px 4px 0 #ffffff;
+	text-align: center;
+	font-family: 'Lobster', cursive;
+	margin-top:10px;
+	margin-left:auto;
+	margin-right:auto;
+
+	
+}
+img{
+		width: 850px;
+		border: solid #eee6e6;
+		background-image: center;
+		height: 500px;
+
+}
+p{
+	color:white;
+	font-family: 'Alegreya', serif;
+	text-align: center;
+	font-size: 1.5rem;
+}
+
+
+
+h5{
+	font-size: 2.5rem;
+		color: #000000;
+	text-shadow: -2px 2px 0 #575757, -4px 4px 0 #ffffff;
+		text-align: center;
+		font-family: 'Kaushan Script', cursive;
+		margin-top:10px;
+		margin-left:auto;
+		margin-right:auto;
+		text-shadow:  -4px 4px 0 rgba(255, 255, 255, 0.562); 
+	}
+#color{
+	background-color: #686363;
+}
+	
+
+h4{
+	font-size: 1.5rem;
+	color: #a87d7d;
+	text-shadow: -2px 2px 0 #000000, -4px 4px 0 #5e3838;
+	text-align: center;
+	font-family: 'Alegreya', serif;
+}
+#menuPrincipal{
+	font-size: 2 px;
+	text-align:center;
+	
+}
+
+
+
+#menuPrincipal a{
+		display:inline-block;
+		border-top:1px solid transparent;
+		border-bottom:1px solid transparent;
+		text-decoration:none;
+		color:rgba(255, 249, 249, 0.993);
+		padding:5px 30px;
+		font-family: 'Alegreya', serif;
+	}
+	#menuPrincipal a:hover:not(#desplegar_menu){
+		color:rgba(0, 3, 8, 0.527);
+		border-top:2px solid rgb(248, 245, 245);
+		border-bottom:2px solid rgb(218, 215, 215);
+	}
+	
+	#menuPrincipal #desplegar_menu{
+		display:none;
+	}
+.opcionMenuPrincipal{
+display: inline-block;
+text-decoration: none;
+color: rgb(125, 153, 23);
+padding: 10px 50px;
+position:relative;
+font-size: 2rem;
+
+
+
+}
+.contenido{
+  width: 100%;
+  height: 900px;
+}
+
+.opcionMenuPrincipal:hover{
+	border:solid ;
+}
+.modelo{
+	position: relative;
+	background-position: left top;
+	background:url(../imagenes/ok.jpg);
+	background-size: 100% 80%;
+	height: 1000px;
+	width: 100% ;
+	
+}
+
+.quienessomos{
+	position: relative;
+	background-size:100%;
+	background-position: center;
+	background: url(../imagenes/photo-of-different-puppies-3299905.jpg)no-repeat fixed;
+	background-size: 500px;
+	padding-top: 1%;
+	background-size: 100% ;
+}
+.foro{
+	position: relative;
+	background:url(../imagenes/short-coated-tan-dog-2253275.jpg)no-repeat fixed;
+	background-size: 500px;
+	padding-top: 1%;
+	background-size: 100%;
+}
+.contacto{
+	position: relative;
+	background-color: rgba(248, 170, 0, 0.336);
+	
+}
+
+#imagen{
+	width: 25px;
+	height:25px;
+}
+
+.Registrarse{
+	position: relative;
+	background-position: left top;
+	height: 2000px;
+	color:rgb(121, 126, 124);
+	background: rgba(251, 255, 0, 0.315);
+
+}
+.Iniciarsesion{
+	
+	text-align: center;
+	color:rgb(121, 126, 124);
+	background: rgba(200, 255, 0, 0.315);
+}
+
+form {
+ 
+  margin: 0 auto;
+  width: 1000px;
+  margin-left:auto;
+  padding:10px 0px;
+	margin-right:auto;
+    margin-top:1px;
+	text-align: center;
+	position: relative;
+	border: 4px solid #534400ab;
+  background-color: #4d3e00;
+  border-radius: 1em;
+}
+
+form li + li {
+  margin-top: 2em;
+  text-align: center;
+}
+
+
+input,
+ textarea {
+ margin: 5px auto;
+	width: 80%;
+	font-size: 0.8rem;
+	display: block;
+	color: #6613005b;
+	font-family: arial;
+	text-align: center;
+  border: 1px solid black;
+}
+#imagen1{
+	display: inline-block;
+	width: 250px;
+	height: 300px;
+	overflow: hidden;
+	background-position: center;
+	margin: 20px;
+	box-shadow: 5px 5px 5px;
+	position: relative;
+	border-radius: 0px 20px;
+	}
+	
+	img{
+	width: 250px;
+	height: 300px;
+	background-position: center;
+	}
+	#imagen1 figcaption{
+		width: 250px;
+		height: 300px;
+		background-color: rgba(73, 8, 8, 0.384);
+		color: #000000;
+	font-family: 'Alegreya', serif;
+		padding: 10px;
+		text-align: center;
+		background-position: center;
+		position: absolute;
+		top: 305px;
+		font-size: 1.2rem;
+	}
+	#imagen1:hover figcaption{
+		top: 0px;
+	}
+
+button {
+  margin-left: 2em;
+  margin:1em;
+  text-align: center;
+  
+}
+
+iframe {
+	display: block;
+	margin: 50px;
+  width: 1000px;
+  border: solid #eee6e6;
+  height:200;
+  margin-left:auto;
+	margin-right:auto;
+	margin-top: 70px;
+	text-align: center;
+}
+h3{
+	color: rgb(153, 147, 147);
+	background: url(../imagenes/c.jpg);
+	text-align: center;
+	margin-top:0px;
+	font-family: 'Bebas Neue', cursive;
+	text-shadow: -2px 2px 0 rgb(248, 247, 247), -4px 4px 0 #0a0e27;
+}
+#chatp label{
+	height: 50px;
+	width: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+#slider{
+	width: 80%;
+	position: absolute;
+	top:700px;
+	left:10px;
+}  /*dimencionar las imagenes*/
+.slide{
+		position : absolute;
+		width: 100%;
+		height: 700px;
+		top:0px;
+		left:0px;
+}
+
+#Formulario{
+	width: 500px;
+	height:150 ;
+	position: relative;
+	top: 10%;
+	left: 15%;
+	padding: 90px 15px ;
+	text-align: center;
+	background-color: rgba(8, 224, 160,0.7);
+	border: 2px solid #FF5733;
+	font-size: 1rem;
+	margin-top:100px;
+}
+#Formulario legend{
+	font-size: 10rem;
+	font-family: 'Lobster', cursive;
+	color: #f00;
+	padding: 150px 150px;
+	border: 1px solid #FF5733;
+}
+
+input, textarea, select{
+	height: 50px;
+	width: 85%;
+	border: solid 1px #03AE7B;
+	border-radius: 10px;
+	border-color: rgba(3, 174, 123,0.9);
+	background-repeat: no-repeat;
+	padding: 5px;
+	padding-left: 50px;
+	margin-top: 3px;
+	font-size: 5rem;
+	color: rgb(174, 57, 3);
+	font-size: 0.8rem;
+	font-family: arial;
+}
+
+
+textarea{
+	margin: 5px auto;
+	width: 80%;
+	font-size: 0.8rem;
+	display: block;
+	color: #FF5733;
+	font-family: arial;
+	text-align: center;
+}
+
+input[type="radio"],input[type="checkbox"]{
+	width: 20px;
+	background-color: transparent;
+	margin: 0px 10px;
+	padding: 0px;
+}
+
+legend{
+	font-size: 150px;
+	font-family: 'Lobster', cursive;
+	color: rgb(255, 255, 255);
+	text-align: center;
+	background: rgb(145, 148, 147);
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.Formulario label {
+ 
+	display: inline-block;
+	  font: 1em 'Bebas Neue', cursive;
+	  width: 50px;
+	  text-align: center;
+	  color: rgb(255, 14, 14);
+	  height: 500px;  
+	  font-size: 2rem;
+	
+	
+}
+
+
+#chatp label{
+display: inline-block;
+font: 1em 'Bebas Neue', cursive;
+height: 150px;
+width: 50px;
+text-align: center;
+color: rgb(255, 14, 14);
+height: 500px;  
+font-size: 2rem;
+}
+
+
+
+
+#Formulario{
+	width: 100px;
+	position: relative;
+	top: 10%;
+	left: 15%;
+	padding: 50px 10px;
+	text-align: center;
+	background-color: rgba(83, 44, 0, 0.76);
+	border: 3px solid rgb(3, 3, 3);
+	font-size: 1rem;
+	margin-top: 100px;
+}
+#Formulario legend{
+	font-size: 4rem;
+	color: rgb(0, 0, 0);
+	padding: 2px 100px;
+	border: 1px solid rgb(231, 42, 0);
+}
+
+input, textarea, select{
+	height: 28px;
+	width: 85%;
+	border: solid 2px rgb(2, 2, 2);
+	border-radius: 10px;
+	border-color: rgba(194, 221, 213, 0.9);
+	background-repeat: no-repeat;
+	padding: 5px;
+	padding-left: 35px;
+	margin-top: 3px;
+	color: rgba(126, 123, 123, 0.76);
+	font-size: 0.9rem;
+	font-family: arial;
+}
+
+input[type="radio"],input[type="checkbox"]{
+	width: 20px;
+	background-color: transparent;
+	margin: 0px 100px;
+	padding: 0px;
+
+}
+legend{
+	font-size: 150px;
+	font-family: 'Lobster', cursive;
+	color: rgb(0, 0, 0);
+	text-align: center;
+	background: rgb(83, 61, 0);
+	margin-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+h6{
+font-size: 1.5em;
+background-color: rgba(214, 213, 153, 0.445) ;
+color: rgb(0, 0, 0);
+text-align: center;
+padding-top: 10px;
+}
+
+#Formulario1{
+	width: 500px;
+	position: relative;
+	top: 10%;
+	left: 15%;
+	padding: 90px 15px;
+	text-align: center;
+	background-color: rgba(71, 35, 0, 0.918);
+	border: 3px solid #572e00;
+	font-family: 'Lobster', cursive;
+	font-size: 1rem;
+	margin-top: 50px;
+}
+#Formulario1 legend{
+	font-size: 4rem;
+	color: #553802;
+	text-align: center;
+	font-family: 'Lobster', cursive;
+	padding: 2px 100px;
+	border: 5px solid #8b4502;
+}
+input, textarea, select{
+	height: 28px;
+	width: 85%;
+	border: solid 1px #03AE7B;
+	border-radius: 10px;
+	border-color: rgba(174, 214, 241,0.9);
+	background-repeat: no-repeat;
+	padding: 50px;
+	padding-left: 35px;
+	padding-right: 35px;
+	margin-top: 7px;
+	color: #473d01fa;
+	font-size: .8rem;
+	font-family: arial;
+}
+
+input[type="radio"],input[type="checkbox"]{
+	width: 20px;
+	background-color: transparent;
+	margin: 0px 100px;
+	padding: 0px;
+
+}
+legend{
+	font-size: 150px;
+	font-family: 'Lobster', cursive;
+	color: #F4D03F;
+	text-align: left;
+	background: rgb(196, 197, 199);
+	margin-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+footer{
+	background-color: #0900575b;
+	background-size: 500px;
+	padding-top: 1%;
+	background-size: 100% ;
+	width: 100%;
+	height: 340px;
+	padding: 10px;
+}
+
+	.redessociales{
+		width: 100%;
+		padding-left: 10%;
+		padding: 0px;
+		text-align: center;
+	}
+	
+	.redessociales img{
+		width: 50px;
+		background-image: center;
+		height: 50px;
+	}
+
+	.redessociales h4{
+		font-size: 20px;
+		color: rgb(235, 222, 222);
+		font-family: 'Bebas Neue', cursive;
+		display: inline-block;
+		text-align: right left;
+		text-shadow:  -2px 7px 1 #5c5959;
+	}
+	
+	
+	@media all and (max-width: 968px){
+		.chat{
+			display: none;
+		}
+	}
+	
+	@media all and (max-width: 968px){
+		.foro{
+			display: none;
+		}
+	}
+	@media all and (max-width: 968px){
+		.body{
+			background-size: 10px auto;
+		}
+	}
+	@media all and (max-width: 968px){
+		.quienessomos{
+			display: block;
+			width: 100%;
+			padding: 0px;
+		}
+		.quienessomos h2{
+			font-size: 1.5rem;
+			color: #000;
+		}
+	
+	}
+	@media all and (max-width: 968px){
+		.TYC{
+			display: block;
+			width: 100% ;
+		}
+		.TYC iframe{
+			display:inline-block;
+			width: 80%;
+			height: 60%;
+		}
+	}
+	@media all and (max-width: 968px){
+		.PYP{
+			display: block;
+			width: 100% ;
+		}
+		.PYP iframe{
+			display:inline-block;
+			width: 50%;
+			height: 60%;
+			font-size: 1 rem;
+		}
+	}
+	@media all and (max-width: 968px){
+		.contacto{
+			display: block;  
+			width: 100% ;
+		}
+		.contacto iframe{
+			display:block;
+			width: 80%;
+			height: 60%;
+		}
+	}
+	@media all and (max-width: 968px){
+		.Registrarse{
+			display: block;
+			
+		}
+		.Registrarse{
+			display: block;
+		}
+	}
+	@media all and (max-width: 968px){
+		.Iniciarsesion{
+			display: block;
+			
+		}
+		.Iniciarsesion iframe{
+			display: block;
+			
+		}
+	}
+	@media all and (max-width: 968px){
+		.footer{
+			background-color: grey;
+			width: 100%;
+			height: 100px;
+		}
+	}
+	@media all and (max-width: 968px){
+		.redessociales{
+			width: 100%;
+		}
+	}
+	@media all and (max-width: 968px){
+		.redes{
+			width: 100%;
+		}
+	}
+	@media all and (max-width: 968px){
+		.redessociales img{
+			width: 50px;
+			background-image: center;
+			height: 50px;
+		}
+	}
+	@media all and (max-width: 968px){
+		.redessociales h4{
+			font-size: 25px;
+			color: rgb(255, 255, 255);
+			font-family: 'Bebas Neue', cursive;
+			display: inline-block;
+			text-shadow:  -4px 4px 0 #000000;
+		}
+	}
+	@media all and (max-width: 968px){
+		.contacto{
+			display: block;
+			width: 100% ;
+		}
+		.contacto iframe{
+			display:block;
+			width: 80%;
+			height: 60%;
+		}
+	}
+	
+	@media all and (max-width: 968px){
+		.fondo{
+			width: 100%;
+			height: auto;
+		}
+		.fondo h1{
+			font-size: 30px;
+		}
+	}
+	@media all and (max-width: 968px){
+		.fondo1 h4{
+			font-size: 1rem;
+		}
+	}
+	
+
+	
+	
